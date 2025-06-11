@@ -1,0 +1,92 @@
+.headerTabs {
+  background-color: #fff;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #ffffff;
+}
+
+button.active {
+  border-bottom: 1px solid #1987e1;
+}
+button:hover,
+button:active,
+button:focus {
+  outline: none;
+  border: none;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.tabsContainer {
+  display: flex;
+  position: relative;
+}
+
+.headerTabs {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #444444;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 0;
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.headerTabs:hover {
+  color: #4497d1;
+}
+
+.headerTabs.active {
+  color: #4497d1;
+}
+
+.underline {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #4497d1;
+}
+
+.rightHeader,
+.leftHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 50%;
+}
+.rightHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.buttonWrapper {
+  width: 100px;
+}
+.headerText {
+  font-size: 1rem;
+}
+@media (max-width: 768px) {
+  .headerText {
+    font-size: 0.8rem;
+  }
+  .rightHeader,
+  .leftHeader {
+    gap: 0.6rem;
+  }
+  .tabsContainer {
+    display: none;
+  }
+  .rightHeader {
+    justify-content: end;
+  }
+}

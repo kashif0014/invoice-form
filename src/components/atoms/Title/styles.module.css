@@ -1,0 +1,41 @@
+.titleIcon {
+  margin-right: 1rem;
+  background-color: #e9f3fd;
+  border-radius: 2rem;
+  width: 2.8rem;
+  height: 2.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titleWrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #333333;
+}
+.title.small {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #333333;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.3rem;
+  }
+  .title.small {
+    font-size: 1rem;
+  }
+  .titleIcon {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+}

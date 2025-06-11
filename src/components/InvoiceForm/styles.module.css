@@ -1,0 +1,77 @@
+.expenseButtonWrapper {
+  display: flex;
+  width: 100%;
+  align-items: end;
+  margin-bottom: 2rem;
+  justify-content: flex-end;
+}
+
+.expenseButtonAlign {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  width: 12rem;
+}
+
+.venderDetailsText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: #1987e1;
+  padding: 1rem 0;
+}
+.quarterContainer {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.buttonWrapper {
+  position: fixed;
+  padding: 1.5rem;
+  bottom: 0;
+  display: flex;
+  gap: 1.5rem;
+  width: 100%;
+  align-items: center;
+  background-color: #ffffff;
+  width: 50%;
+}
+.invoiceForm {
+  padding-bottom: 100px;
+}
+.invoiceContentWrapper {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.pdfSection,
+.invoiceSection {
+  display: flex;
+  width: 50%;
+  flex-flow: column;
+}
+
+@media (max-width: 768px) {
+  .buttonWrapper {
+    left: 0;
+    width: 100%;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+  .invoiceForm {
+    padding-bottom: 80px;
+  }
+  .invoiceContentWrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+  .pdfSection,
+  .invoiceSection {
+    width: 100%;
+  }
+}

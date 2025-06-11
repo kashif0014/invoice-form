@@ -1,0 +1,16 @@
+.label {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #96989e;
+  margin-bottom: 3px;
+  display: block;
+}
+.required {
+  color: red;
+  font-size: 0.5rem;
+  margin-left: 3px;
+}
+.labelWrapper {
+  display: flex;
+  align-items: center;
+}
