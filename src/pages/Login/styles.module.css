@@ -1,0 +1,15 @@
+.loginPageWrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+.buttonWrapper {
+  padding-top: 30px;
+}
+.formWrapper {
+  width: 250px;
+}
