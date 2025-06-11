@@ -1,0 +1,24 @@
+.button {
+  padding: 0.4rem 0.8rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px;
+  border-radius: 0.6rem;
+  font-size: 0.8rem;
+  transition: all 0.4s ease;
+}
+.button.primary {
+  background-color: #1987e1;
+  color: white;
+  border-color: 1px solid #1987e1;
+}
+.button.secondary {
+  background-color: #ffffff;
+  color: #535353;
+  border: 1px solid #c4c8ce;
+}
+.button:hover {
+  transform: scale(1.02);
+}

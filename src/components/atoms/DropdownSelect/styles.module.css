@@ -1,0 +1,50 @@
+.selectFieldWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-bottom: 15px;
+}
+.labelWrapper {
+  display: flex;
+  align-items: center;
+}
+.label {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #96989e;
+  margin-bottom: 3px;
+  display: block;
+}
+.required {
+  color: red;
+  font-size: 0.5rem;
+  margin-left: 3px;
+}
+.select {
+  width: 100%;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid #c4c8ce;
+  font-size: 0.8rem;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.select option[value=""][disabled] {
+  color: #96989e;
+  font-size: 0.8rem;
+}
+option:disabled {
+  color: #96989e;
+}
+
+.infoText {
+  color: #a2a4a6;
+  font-size: 0.6rem;
+  font-weight: 500;
+  position: absolute;
+  left: 3px;
+  bottom: -3px;
+}
